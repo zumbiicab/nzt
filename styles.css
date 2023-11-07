@@ -100,6 +100,11 @@ body {
     margin: 0;
 }
 
+header {
+    height: 100vh;
+    display: flex;
+}
+
 section.beginner {
     background-color: #1abab5;
 }
@@ -132,6 +137,7 @@ p {
     width: 100%;
     padding-block: 50px;
     margin-inline: auto;
+    align-self: center;
 }
 
 article {
